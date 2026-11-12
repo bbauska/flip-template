@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ index.html for flip-template.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src https:" />
+  <meta name="language" content="English">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="House Seats Flipped" />
+  <meta name="twitter:site" content="@bbauska" />
+  <meta name="twitter:creator" content="@bbauska">
+  <meta name="twitter:title" content="House Seats Flipped" />
+  <meta name="twitter:description" content="Federal House of Representative Seats Flipped." />
+  <meta name="twitter:image" content="https://house-flip.bauska.org/images/apple-icon-180x180.png" />
+
+  <!-- Open Graph Meta -->
+  <meta property="og:url" content="https://google.com">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="House Seats Flipped">
+  <meta property="og:description" content="Federal House of Representative Seats Flipped.">
+  <meta property="og:image" content="https://house-flip.bauska.org/images/apple-icon-180x180.png">
+
+  <!-- meta charset, author, viewport, title, desc, keywords, apple/android/microsoft/favorite 
+  icons, canonical url, & manifest -->
+  <meta name="author" content="Brian Bauska">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="title" content="House Seats Flipped">
+  <meta name="description" content="Federal House of Representative Seats Flipped.">
+  <meta name="keywords" content="website,web,site,zombie,Politics,culture,casino,capitalism,silus-gw,
+    capitalize,political,disposability,death,America,culture,power,society,greed,avarice,excess,sylas,
+    MIC,Military,Industrial,Complex,corruption,Dulles,Bush,Reagan,justice,youth,democracy,psychology,
+    ideology,governance,spectacle,casinocapitalism,zombie,steak,#Steak,YouTube,Sonic,sonic,SONIC,#sylas,
+    Silus,Gaming,World,SilusGamingWorldLuccasNeto,T-Series,SETIndia,Cocomelon,Mr,Beast,MrBeast,#beast,
+    Beast,CE1,C-E-1,MRBEAST,BEAST,SilusGamingWorld,Silus,SilusSpider,NickAR,Nick,NY,NYNick,#brightside,
+    NewYorkNick,NYNick,URCristiano,UR,Cristiano,KidsDimaShow,VladandNiki,LuisitoComunica,Brightside,
+    ZeeTV,DudePerfect,TipsOfficial,TipsOfficial,FNAF,FiveNightsatFreddies,themusiccompany,pewdiepie,
+    5minutecrafts,A4,Sambucha,Sam&Colby,Sam&ColbyReacts,JuiceWorld,#pewdiepie,#fnaf,#gta,gta,grand,
+    RayWilliamJohnson,FGTV,KaicenatLive,IShowSpeed,Jelly,DanTDM,KSI,LoganPaul,JackSucksAtLife,theft,
+    PackGOD,JakePaul,Jake,PaulJakePaul,SamGaming01,Veshreny,WWE,WorldWrestlingEntertainment,auto,
+    Smosh,DadsSpeed,TopperGuild,InternetAnarchist,GuavaJuice,FortniteYoutubers,Sypherpk,LiveSPEEDY,
+    AdenRoss,Preston,JohnnieJuilbert,YouTubeMovies,AnnoyingOrange,JackSepticeye,JackFilms,BBNo$,
+    Unspeakable,MarkRober,TheFilmTheorist,TheGameTheorist,Minecraft,TheBoys,JTMusic,DAFUQBoom!?,
+    AIMIN,Robby,BrentTV,EYStream,Fortnite,Ninja,SunnyV2,N30N,SamFrank,Dream,Technoblade,@bbauska,
+    RyanTrhan,Stellar,DJCook,AnthonyMadia,AnthonyIlla,SmoshGaming,SmoshPit,SmoshCast,Fred,cellardoor,
+    BriansBlog,CellarDoor,Silus,GW,Gaming,World,SilusGamingWorld,SilusGW,#Silus-GW,#cellardoor,bbauska,
+    #SilusGamingWorld,#SilusGW,gluttony,selfishness,#bbauska,#silas,#silys,#sylus,#sylas,#sylusgw,
+    #silasGW,#silasgamingworld,roblox,#roblox,LearnJSwithBrian,minecraft">
+<!-- -->
+<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png" />
+
+<link rel="apple-touch-icon" sizes="57x57" href="./images/apple-57x57-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="./images/apple-60x60-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="./images/apple-72x72-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="./images/apple-76x76-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="./images/apple-114x114-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="./images/apple-120x120-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="./images/apple-144x144-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="./images/apple-152x152-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-180x180-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="196x196" href="./images/android-chrome-196x196.png" />
+<link rel="icon" type="image/png" href="./images/android-chrome-192x192.png" sizes="192x192" type="image/png">
+<link rel="icon" type="image/png" href="./images/android-chrome-256x256.png" sizes="256x256" type="image/png">
+<link rel="icon" type="image/png" href="./images/android-chrome-384x384.png" sizes="384x384" type="image/png">
+<link rel="icon" type="image/png" href="./images/android-chrome-512x512.png" sizes="512x512" type="image/png">
+
+<meta name="theme-color" content="#999999" />
+  
+<meta name="msapplication-TileColor" content="#999999" />
+<meta name="msapplication-TileImage" content="./images/windows-tile.png">
+<meta name="msapplication-square70x70logo" content="./images/windows-small-tile.png" />
+<meta name="msapplication-square150x150logo" content="./images/windows-medium-tile.png" />
+<meta name="msapplication-wide310x150logo" content="./images/windows-wide-tile.png" />
+<meta name="msapplication-square310x310logo" content="./images/windows-large-tile.png" />
+<!-- -->
+
+  <link rel="canonical" href="https://flip-template.bauska.org">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="robots" content="index, follow">
+
+  <!-- meta microsoft tile color/image, theme color, robots.txt for seo -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="index, follow">
+
+  <title>House Seats Flipped</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+  </style>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<body>
+  <div class="container">
+    <div class="book-wrapper">
+      <div class="book-cover">
+        <img src="../images/bookcover.png?raw=true" alt="Map showing red and blue states">
+      </div>
+      <div class="pages-container">
+        <div class="pages">
+          <div class="page-num-1">
+            <div class="pages-content">
+              <div class="pages-background"></div>
+              <div class="content-inner">
+                <h2>House of Representatives</h2>
+                <h3>120th CONGRESS, Jan 3, 2027-Jan 3, 2029.</h3>
+                <h4>State by State FLIPPED</h4>
+                <div class="text">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-2">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Arizona</h3>
+                <div class="text">
+                  <p>Arizona 1 - Amish Shah (D)</p>
+                  <p>Arizona 6 - JoAnna Mendoza (D)</p>
+                  <p></p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-3">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>California Seats Flipped</h3>
+                <div class="text">
+                  <p>California-1 - Mike McGuire (D</p>
+                  <p>California-3 - Richard Pan (D)</p>
+                  <p>California-22 - Randy Villegas (D)</p>
+                  <p>California-38 - Hilda Solis (D)- New Seat</p>
+                  <p>California-41 - Linda Sánchez (D)</p>
+				  <p>California-48 - Marni von Wilpert (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-4">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Colorado</h3>
+                <div class="text">
+                  <p>Colorado-4 - Eileen Laubacher (D)</p>
+                  <p>Colorado-5 - Jessica Killin (D)</p>
+                  <p>Colorado-8 - Manny Rutinel (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--
+          <div class="page-num-5">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Florida</h3>
+                <div class="text">
+                  <p>Pia Dandiya (D) - New Seat</p>
+                </div>
+              </div>
+            </div>
+          </div>
+-->
+          <div class="page-num-6">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Indiana</h3>
+                <div class="text">
+                  <p>Indiana-5 - J. D. Ford (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-7">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Iowa</h3>
+                <div class="text">
+                  <p>Iowa-1 - Christina Bohannan (D)</p>
+                  <p>Iowa-2 - Lindsay James (D)</p>
+                  <p>Iowa-3 - Sarah Trone Garriott (D)</p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-8">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Kentucky</h3>
+                <div class="text">
+                  <p>Kentucky-6 - Zach Dembo (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-9">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Michigan</h3>
+                <div class="text">
+                  <p>Michigan-4 - Sean McCann (D)</p>
+                  <p>Michigan-7 - William Lawrence (D)</p>
+                  <p>Michigan-10 - Christina Hines (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-10">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Minnesota</h3>
+                <div class="text">
+                  <p>Minnesota-1 - Jake Johnson (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-11">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Missouri<h3>
+                <div class="text">
+                  <p>Missouri-2 -  Fred Wellman (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-12">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Montana<h3>
+                <div class="text">
+                  <p>Montana-1 - Sam Forstag (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-13">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Nebraska<h3>
+                <div class="text">
+                  <p>Nebraska-2 -  Denise Powell (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-14">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Nevada<h3>
+                <div class="text">
+                  <p>Nevada-2 -  Teresa Benitez-Thompson (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-15">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>New Jersey<h3>
+                <div class="text">
+                  <p>New Jersey-2 - Zack Mullock (D)</p>
+                  <p>New Jersey-7 - Rebecca Bennett (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-16">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>New York<h3>
+                <div class="text">
+                  <p>New York-17 - Cait Conley (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-17">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>North Carolina<h3>
+                <div class="text">
+                  <p>North Carolina-6 - Cyril Jefferson (D)</p>
+                  <p>North Carolina-9 - Richard Ojeda (D)</p>
+                  <p>North Carolina-11 - Jamie Ager (D)</p>
+                  <p>North Carolina-13 - Paul Barringer (D)</p>
+                  <p>North Carolina-14 - LaKesha Womack (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-18">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Ohio<h3>
+                <div class="text">
+                  <p>Ohio-7 - Brian Poindexter (D)</p>
+                  <p>Ohio-10 - Kristina Knickerbocker (D)</p>
+                  <p>Ohio-15 - Don Leonard (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-19">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Pennsylvania<h3>
+                <div class="text">
+                  <p>Pennsylvania-1 - Bob Harvie(D)</p>
+                  <p>Pennsylvania-7 - Bob Brooks(D)</p>
+                  <p>Pennsylvania-8 - Paige Cognetti (D)</p>
+                  <p>Pennsylvania-10 - Janelle Stelson(D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-20">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>South Carolina<h3>
+                <div class="text">
+                  <p>South Carolina-1 - Nancy Lacore (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-21">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Tennessee<h3>
+                <div class="text">
+                  <p>Tennessee-4 - Victoria Broderick (D)</p>
+                </div>
+              </div>
+            </div>
+		  </div>
+          <div class="page-num-22">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Texas<h3>
+                <div class="text">
+                  <p>Texas-9 - Leticia Gutierrez (D)</p>
+                  <p>Texas-15 - Bobby Pulido (D)</p>
+                  <p>Texas-23 - Katy Padilla Stout (D)</p>
+                  <p>Texas-30 - Frederick Haynes III (D) New Seat</p>
+                  <p>Texas-35 - Johnny Garcia (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-23">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Utah<h3>
+                <div class="text">
+                  <p>Utah-1 - Ben McAdams (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-24">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Virginia<h3>
+                <div class="text">
+                  <p>Virginia-1 - Shannon Taylor (D)</p>
+                  <p>Virginia-2 - Elaine Luria (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-num-25">
+            <div class="pages-content">
+              <div class="content-inner">
+                <h3>Wisconsin<h3>
+                <div class="text">
+                  <p>Wisconsin-1 - Mitchell Berman (D)</p>
+                  <p>Wisconsin-3 - Rebecca Cooke (D)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  <!-- class='pages -->
+      </div>  <!-- class='pages-container' -->
+    </div>  <!-- class="book-wrapper" -->
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+    <script defer src="./js/script.js"></script>
+  </div>  <!-- div class="container" -->
+</body>
+  
+</html>
